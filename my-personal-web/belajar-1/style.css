@@ -46,5 +46,23 @@ align-items: center;
 }
 
 .img-content {
+width: 20%;
+height: 20%;
+}
 
+.container-footer {
+    background-color: red;
+    color: white;
+}
+
+.h1-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
