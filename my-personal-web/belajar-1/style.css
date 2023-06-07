@@ -8,11 +8,12 @@ body {
 
 .ul-navbar {
     background-color: red;
+    list-style-type: none;
+    width: 200px;
+    color: white;
 
 }
 
 .li-navbar {
-    color: white;
-    background-color: green;
-
+    background-color: blue;
 }
