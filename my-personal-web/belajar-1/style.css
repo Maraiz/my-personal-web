@@ -22,21 +22,22 @@ body {
     padding: 0;
 }
 
-.li-navbar a{
-    border: 2px solid white;
-    background-color: #222(0, 0, 0);
+.a-navbar {
     padding: 5px;
     margin: 100px;
     color: white;
     width: 200px;
     font-weight: bold;
     text-decoration: none;
-    cursor: pointer;
-    margin-bottom: 10px;
+    font-size: 20px;
 }
 
-.li-navbar a:hover {
-    background-color: #555;
+.a-navbar:hover {
+    color: yellow;
+    background-color: #bb3f3f;
+    transition: .3s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
 }
 
 .container-content {
