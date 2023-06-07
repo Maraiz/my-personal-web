@@ -4,5 +4,15 @@ body {
 
 .navbar {
     background-color: #222;
+}
+
+.ul-navbar {
+    background-color: red;
+
+}
+
+.li-navbar {
     color: white;
+    background-color: green;
+
 }
