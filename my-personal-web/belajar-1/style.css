@@ -4,16 +4,26 @@ body {
 
 .navbar {
     background-color: #222;
+    display: flex;
+    height: 100px;
+    
 }
 
 .ul-navbar {
-    background-color: red;
     list-style-type: none;
-    width: 200px;
-    color: white;
+    display: flex
 
 }
 
-.li-navbar {
-    background-color: blue;
+.li-navbar a{
+    padding: 5px;
+    margin: 50px;
+    color: white;
+    width: 200px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.li-navbar a:hover {
+    color: rgb(203, 203, 179);
 }
